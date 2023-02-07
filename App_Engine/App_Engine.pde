@@ -5,9 +5,9 @@ import ddf.minim.signals.*;
 import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
 //
-
-//
 //Global Variables
+String Path = new File("").getAbsolutePath(); //Exported
+String directory = "C:\Users\hadio\OneDrive\Documents\GitHub\App-Engine-Review\App_Engine"; //Not Exported
 //
 void setup()//End setup
 //void draw() {}//End Setup
